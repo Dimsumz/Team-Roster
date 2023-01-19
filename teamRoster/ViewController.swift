@@ -8,6 +8,14 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var athleteArray = [
+        "s1": [0.0, 0.0, 0.0, 0.0, 0.0]
+    
+    
+    ]
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
