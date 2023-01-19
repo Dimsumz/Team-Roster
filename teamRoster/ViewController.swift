@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     
     ]
     
-    
+        //2D array?
 
     override func viewDidLoad() {
         super.viewDidLoad()
