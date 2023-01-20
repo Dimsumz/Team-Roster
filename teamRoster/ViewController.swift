@@ -10,8 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     
     let athleteArray = [
-        rosterStruct(name: <#T##String#>, e1: <#T##String#>, e2: <#T##String#>, e3: <#T##String#>, e4: <#T##String#>, e5: <#T##String#>, e6: <#T##String#>, e7: <#T##String#>, e8: <#T##String#>)
-    
+        rosterStruct(name: "Matthew Rodrigues", club: "TIDE", free200: "55.72", im: "1:03:42", free50: "1:03:42", fly: "1:03:42", free100: "1:03:42", free500: "1:03:42", back: "1:03:42", breast: "1:03:42")
     
     ]
     
