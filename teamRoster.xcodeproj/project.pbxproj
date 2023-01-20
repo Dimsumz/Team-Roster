@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B017A7D297A6CFC0071B35A /* rosterStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B017A7C297A6CFC0071B35A /* rosterStruct.swift */; };
+		9B017A7F297A6D050071B35A /* rosterSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B017A7E297A6D050071B35A /* rosterSet.swift */; };
 		9BD992D629792212007B0ECF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD992D529792212007B0ECF /* AppDelegate.swift */; };
 		9BD992D829792212007B0ECF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD992D729792212007B0ECF /* SceneDelegate.swift */; };
 		9BD992DA29792212007B0ECF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD992D929792212007B0ECF /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B017A7C297A6CFC0071B35A /* rosterStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rosterStruct.swift; sourceTree = "<group>"; };
+		9B017A7E297A6D050071B35A /* rosterSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rosterSet.swift; sourceTree = "<group>"; };
 		9BD992D229792212007B0ECF /* teamRoster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = teamRoster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BD992D529792212007B0ECF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BD992D729792212007B0ECF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B017A80297A6D100071B35A /* Roster Control */ = {
+			isa = PBXGroup;
+			children = (
+				9B017A7E297A6D050071B35A /* rosterSet.swift */,
+				9B017A7C297A6CFC0071B35A /* rosterStruct.swift */,
+			);
+			path = "Roster Control";
+			sourceTree = "<group>";
+		};
 		9BD992C929792212007B0ECF = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +79,7 @@
 				9BD992E329792214007B0ECF /* LaunchScreen.storyboard */,
 				9BD992E629792214007B0ECF /* Info.plist */,
 				9BD992DE29792212007B0ECF /* teamRoster.xcdatamodeld */,
+				9B017A80297A6D100071B35A /* Roster Control */,
 			);
 			path = teamRoster;
 			sourceTree = "<group>";
@@ -142,7 +156,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BD992DA29792212007B0ECF /* ViewController.swift in Sources */,
+				9B017A7D297A6CFC0071B35A /* rosterStruct.swift in Sources */,
 				9BD992E029792212007B0ECF /* teamRoster.xcdatamodeld in Sources */,
+				9B017A7F297A6D050071B35A /* rosterSet.swift in Sources */,
 				9BD992D629792212007B0ECF /* AppDelegate.swift in Sources */,
 				9BD992D829792212007B0ECF /* SceneDelegate.swift in Sources */,
 			);
